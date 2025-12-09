@@ -5,7 +5,7 @@ import clsx from 'clsx';
 import { motion } from 'framer-motion';
 
 // Assets
-const avatarImg = '/assets/avatar.png';
+const avatarImg = '/assets/syd_avatar.png';
 
 export interface StyleOption {
     id: string;
@@ -18,11 +18,12 @@ export const ChatHeader: React.FC<{ onClose: () => void }> = ({ onClose }) => (
     <div className="bg-sage-DEFAULT p-4 flex items-center justify-between text-white rounded-t-2xl shadow-md cursor-pointer" onClick={onClose}>
         <div className="flex items-center gap-3">
             <div className="relative">
-                <img src={avatarImg} alt="Architect" className="w-10 h-10 rounded-full border-2 border-white object-cover shadow-sm" />
-                <div className="absolute bottom-0 right-0 w-3 h-3 bg-green-400 rounded-full border border-white"></div>
+                <div className="absolute inset-0 bg-green-400 rounded-full blur-sm opacity-40 animate-pulse"></div>
+                <img src={avatarImg} alt="Assistant SYD" className="relative w-10 h-10 rounded-full border-2 border-white object-cover shadow-sm z-10" />
+                <div className="absolute bottom-0 right-0 w-3 h-3 bg-green-500 rounded-full border border-white z-20 animate-bounce"></div>
             </div>
             <div>
-                <h3 className="font-bold text-sm">Architetto AI</h3>
+                <h3 className="font-bold text-sm">Assistente SYD</h3>
                 <p className="text-[10px] text-sage-light opacity-90 uppercase tracking-wide">Online</p>
             </div>
         </div>
