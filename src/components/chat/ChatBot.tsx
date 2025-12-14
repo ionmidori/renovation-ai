@@ -73,8 +73,8 @@ const ChatBot: React.FC = () => {
                                 key="text-input"
                                 value={input}
                                 onChange={handleInputChange}
-                                placeholder="Scrivi un messaggio o carica una foto..."
-                                className="flex-1 bg-gray-50 border-none focus:ring-2 focus:ring-sage-light rounded-xl px-4 py-3 text-sm text-dark-DEFAULT"
+                                placeholder="Scrivi un messaggio..."
+                                className="flex-1 bg-gray-50 border-none focus:ring-2 focus:ring-sage-light rounded-xl px-4 py-3 text-sm text-dark-DEFAULT mx-2"
                             />
 
                             {/* Send Button */}

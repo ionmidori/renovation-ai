@@ -9,22 +9,23 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@ai-sdk/google": "^1.0.0",
+    "@ai-sdk/google": "^1.2.22",
     "@ai-sdk/react": "^1.0.0",
     "@google/generative-ai": "^0.24.1",
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.4.2",
     "@types/three": "^0.181.0",
-    "ai": "^4.0.0",
+    "ai": "^4.3.19",
     "clsx": "^2.1.1",
-    "framer-motion": "^12.23.25",
+    "framer-motion": "^12.23.26",
     "jspdf": "^3.0.4",
     "lucide-react": "^0.556.0",
     "next": "16.0.8",
     "react": "19.2.1",
     "react-dom": "19.2.1",
     "tailwind-merge": "^3.4.0",
-    "three": "^0.181.2"
+    "three": "^0.181.2",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

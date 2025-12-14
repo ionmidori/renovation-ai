@@ -13,6 +13,7 @@ export const useChatLogic = () => {
     // Manual Input State
     const [input, setInput] = useState('');
 
+
     // Vercel AI SDK Hook
     const chatHelpers = useChat({
         api: '/api/chat',
@@ -85,7 +86,7 @@ export const useChatLogic = () => {
     }, [append]);
 
     const handleStyleSelect = useCallback((styleId: string, styleName: string) => {
-        setFurnitureStyle(styleId as any);
+        setFurnitureStyle(styleId as 'minimal_zen' | 'industrial_loft' | 'scandi' | 'rustic_modern' | 'japandi' | 'boho_chic' | 'luxury_classic');
 
         if (append) {
             append({

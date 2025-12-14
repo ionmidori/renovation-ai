@@ -12,5 +12,19 @@
     "projectDetails": "Rifacimento completo di un bagno di 8 mq.",
     "contactInfo": "ion.midori@gmail.com",
     "userPreference": "Preventivo"
+  },
+  {
+    "id": 1765304735358,
+    "date": "2025-12-09T18:25:35.358Z",
+    "projectDetails": "Rifacimento totale bagno di 8 mq.",
+    "contactInfo": "ion.midori@gmail.com",
+    "userPreference": "Preventivo via email."
+  },
+  {
+    "id": 1765305064342,
+    "date": "2025-12-09T18:31:04.342Z",
+    "projectDetails": "Rifacimento totale bagno 9 mq.",
+    "contactInfo": "Ion, Ion.midori@gmail.com",
+    "userPreference": "Preventivo ufficiale."
   }
 ]
