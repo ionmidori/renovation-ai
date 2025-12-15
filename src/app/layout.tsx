@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { RenovationProvider } from "@/context/RenovationContext";
 
@@ -18,6 +19,7 @@ export default function RootLayout({
         <RenovationProvider>
           {children}
         </RenovationProvider>
+        <Analytics />
       </body>
     </html>
   );
