@@ -45,7 +45,7 @@ const ChatBot: React.FC = () => {
                         </div>
 
                         {/* Input */}
-                        <form onSubmit={handleSubmit} className="p-3 bg-white border-t border-gray-100 flex items-center gap-2">
+                        <form onSubmit={handleSubmit} className="bg-white border-t border-gray-100 input-container footer-bar">
                             {/* Hidden File Input */}
                             <input
                                 key="file-input"
@@ -62,7 +62,7 @@ const ChatBot: React.FC = () => {
                             <button
                                 type="button"
                                 onClick={() => fileInputRef.current?.click()}
-                                className="p-3 text-sage-DEFAULT hover:bg-sage-light/10 rounded-xl transition"
+                                className="p-2 text-sage-DEFAULT hover:bg-sage-light/10 rounded-xl transition flex-shrink-0"
                                 title="Carica immagine stanza"
                             >
                                 <Paperclip size={20} />
@@ -74,13 +74,13 @@ const ChatBot: React.FC = () => {
                                 value={input}
                                 onChange={handleInputChange}
                                 placeholder="Scrivi un messaggio..."
-                                className="flex-1 bg-gray-50 border-none focus:ring-2 focus:ring-sage-light rounded-xl px-4 py-3 text-sm text-dark-DEFAULT mx-2"
+                                className="bg-gray-50 border-none focus:ring-2 focus:ring-sage-light rounded-xl px-4 py-3 text-sm text-dark-DEFAULT text-input"
                             />
 
                             {/* Send Button */}
                             <button
                                 type="submit"
-                                className="p-3 bg-sage-DEFAULT text-white rounded-xl hover:bg-sage-dark transition shadow-sm disabled:opacity-50 disabled:cursor-not-allowed"
+                                className="bg-sage-DEFAULT text-white rounded-xl hover:bg-sage-dark transition shadow-sm disabled:opacity-50 disabled:cursor-not-allowed send-button"
                                 disabled={!input.trim()}
                             >
                                 <Send size={18} />

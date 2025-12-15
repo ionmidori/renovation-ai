@@ -108,3 +108,37 @@ body {
     opacity: 1;
   }
 }
+
+/* --- CHAT INPUT STYLES --- */
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.text-input {
+  flex-grow: 1;
+}
+
+.send-button {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  /* Added to center icon */
+  align-items: center;
+  /* Added to center icon */
+  justify-content: center;
+  /* Added to center icon */
+  padding: 0;
+  /* Override default p-3 */
+}
+
+.footer-bar {
+  padding-right: env(safe-area-inset-right, 16px);
+  padding-left: env(safe-area-inset-left, 16px);
+  padding-bottom: env(safe-area-inset-bottom, 20px);
+}

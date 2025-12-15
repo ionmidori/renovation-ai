@@ -18,7 +18,7 @@ export default function Home() {
     {
       id: 'welcome',
       role: 'assistant',
-      content: '👋 Ciao! Sono SYD, il tuo Architetto Personale.\n\nPosso aiutarti con:\n• Preventivi personalizzati\n• Visualizzazioni 3D del progetto\n• Consigli su design e materiali\n\nCome posso aiutarti? 🏠✨'
+      content: '👋 Ciao! Sono SYD, il tuo Architetto Personale.\n\nPosso aiutarti con:\n• Preventivi personalizzati\n• Visualizzazioni 3D del progetto\n• Consigli su design e materiali\n\nCome posso esserti utile? 🏠✨'
     }
   ]);
   const [input, setInput] = useState('');
